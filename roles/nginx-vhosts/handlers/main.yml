@@ -1,0 +1,5 @@
+---
+- name: Force nginx restart
+  systemd:
+    name: nginx
+    state: restarted
