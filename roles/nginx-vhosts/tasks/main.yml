@@ -1,9 +1,9 @@
 ---
 - name: Install nginx
   ansible.builtin.apt:
-    update_cache: True
+    update_cache: yes
     name: nginx
-    state: latest
+    state: present
 
 - name: Copy nginx config from template
   ansible.builtin.template:
