@@ -1,5 +1,5 @@
 ---
 - name: Force nginx restart
-  systemd:
+  ansible.builtin.systemd:
     name: nginx
     state: restarted

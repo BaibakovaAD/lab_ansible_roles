@@ -1,0 +1,7 @@
+---
+skip_list:
+  - role-name:
+  - yaml[indentation]
+  - yaml[empty-lines]
+exclude_paths:
+  - .github/
