@@ -8,13 +8,15 @@
 
 <img width="521" height="248" alt="image" src="https://github.com/user-attachments/assets/6abacde6-6a27-4769-8eea-b4c3ca08388c" />
 
-Прописываем первую задачу в ./roles/nginx-vhosts/tasks/main.yml по установке NGINX на хост. В качестве второй задачи: копирование в цикле конфигурации для ВМ.
+Прописываем задачи в ./roles/nginx-vhosts/tasks/main.yml по установке NGINX на хост и копирование в цикле конфигурации для ВМ.
 
-<img width="623" height="447" alt="image" src="https://github.com/user-attachments/assets/29064029-e9ea-424f-a077-2150e285056f" />
+<img width="623" height="447" alt="image" src="https://github.com/user-attachments/assets/65fb5354-9581-43eb-ab41-ecaacd98dcab" />
 
-б) Затем создаются файлы site.conf.j2 и index.html.j2 с данными о страницах виртуального сайта
+Заполняем файлы site.conf.j2 и index.html.j2 с данными о страницах виртуального сайта.
+<img width="614" height="369" alt="image" src="https://github.com/user-attachments/assets/7b3a18ec-d09c-4cca-b81e-b3d44c092bb2" />
+<img width="603" height="212" alt="image" src="https://github.com/user-attachments/assets/240492b2-af82-4f60-a699-be938b61c275" />
 
-в) Отдельно создается скрипт run_playbook.sh, который помогает запускать плейбук к ролью
+Так же создается скрипт run_playbook.sh, который помогает запускать плейбук к ролью
 
 Запускаем скрипт плейбука
 
@@ -53,5 +55,9 @@
 <img width="704" height="422" alt="image" src="https://github.com/user-attachments/assets/543758c6-9bb4-4be8-9674-1c9dc1263a24" />
 <img width="830" height="332" alt="image" src="https://github.com/user-attachments/assets/69cce1a1-c4ec-43c3-9397-fea91aa00cbe" />
 
-Потом добавляем новый "боевой" сценарий lint.yml и просматриваем, как он отрабатывает
+Добавляем новый боевой сценарий lint.yml и просматриваем, как он отрабатывает.
+<img width="625" height="318" alt="image" src="https://github.com/user-attachments/assets/e63b735f-cb79-4153-b70e-af79520109f3" />
+<img width="843" height="415" alt="image" src="https://github.com/user-attachments/assets/ff71674c-da09-42b5-9338-01ba55f5ccea" />
 
+<img width="1280" height="551" alt="image" src="https://github.com/user-attachments/assets/ecec2862-a410-4a28-b745-74512021027e" />
+<img width="1280" height="608" alt="image" src="https://github.com/user-attachments/assets/c046c7ed-d6bb-4fce-9cff-8cbdd0d28e01" />
