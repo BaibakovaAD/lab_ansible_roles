@@ -34,3 +34,24 @@
 <img width="843" height="586" alt="image" src="https://github.com/user-attachments/assets/a51bf360-4cbd-40a2-a294-478c4261e275" />
 
 Создаем репозиторий lab_ansible_roles
+
+<img width="1027" height="729" alt="image" src="https://github.com/user-attachments/assets/0459751b-67ec-492a-a622-2999e55b490c" />
+
+Фиксируем изменения в локальном репозитории с сообщением “Files were added”, так же отправляем зафиксированные изменения из локальной ветки main в удалённый репозиторий origin.
+
+<img width="829" height="496" alt="image" src="https://github.com/user-attachments/assets/e032ebac-d253-41a0-8c44-c0f53667137f" />
+
+Создаём файл README.md и записываем в него текст. Потом добавляем файл README.md в индекс Git, фиксируем изменения. И в конце отправляем коммит в удалённый репозиторий.
+
+<img width="835" height="469" alt="image" src="https://github.com/user-attachments/assets/97a09042-e383-4d53-a0c1-845c488d6f34" />
+
+Активируем CI-пайплайны.
+
+<img width="1010" height="848" alt="image" src="https://github.com/user-attachments/assets/0568ffaf-feac-4c08-b374-c0405fa0e768" />
+
+Добавляем сценарий devops_course_pipeline.yml и добавляем сценарии CI в гит.
+<img width="704" height="422" alt="image" src="https://github.com/user-attachments/assets/543758c6-9bb4-4be8-9674-1c9dc1263a24" />
+<img width="830" height="332" alt="image" src="https://github.com/user-attachments/assets/69cce1a1-c4ec-43c3-9397-fea91aa00cbe" />
+
+Потом добавляем новый "боевой" сценарий lint.yml и просматриваем, как он отрабатывает
+
