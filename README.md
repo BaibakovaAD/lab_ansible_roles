@@ -1,4 +1,4 @@
-#DevOpsLab_04 Ansible roles
+# DevOpsLab_06 Ansible roles
 
 Первым делом, организовала древовидную структуру будующей роли.
 
